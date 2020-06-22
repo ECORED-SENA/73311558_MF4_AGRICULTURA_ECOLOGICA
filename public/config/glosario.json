@@ -3,45 +3,35 @@
     "letter": "A",
     "terms": [
       {
-        "title": "Abono",
-        "desciption": "Sustancia utilizada para mejorar las condiciones del suelo e incrementar la producción de los un cultivos que este sustenta."
+        "title": "Anclaje",
+        "desciption": "Capacidad que tiene el sistema radicular de los vegetales, para brindar estabilidad estructura a la planta."
       }
     ]
   },
   {
-    "letter": "C",
+    "letter": "D",
     "terms": [
       {
-        "title": "Capacidad de Intercambio Catiónico",
-        "desciption": "Son las cargas negativas presentes en las superficies de los minerales y componentes orgánicos y representa la cantidad de cationes que las superficies pueden retener."        
-      },{
-        "title": "Clorosis",
-        "desciption": "Coloración anormal del follaje de las plantas debido a la falta de clorofila como consecuencia de la deficiencia de algún nutriente."        
-      },{
-        "title": "Componente Sólido del Suelo",
-        "desciption": "Representa el 50% del volumen total del suelo y está conformado por la fracción mineral y la materia orgánica. "        
+        "title": "Depredadores",
+        "desciption": "Es un organismo, en este caso, un insecto que se alimenta de otro  insecto causándole la muerte de forma rápida."        
       }
     ]
   }, 
   {
-    "letter": "E",
+    "letter": "F",
     "terms": [
       {
-        "title": "Erosión Eólica",
-        "desciption": "Es el proceso de pérdida de suelo causada por el viento que levanta y transporta las partículas afectando su capacidad productiva."
-      },
-      {
-        "title": "Erosión Hídrica",
-        "desciption": "Es el proceso de degradación y remoción de las rocas o del  suelo producido por acción del flujo de agua que circula a su alrededor. "
+        "title": "Gutación",
+        "desciption": "Proceso de exudación de las hojas por medio del cual liberan agua y nutrientes. "
       }
     ]
   },
   {
-    "letter": "F",
+    "letter": "H",
     "terms": [
       {
-        "title": "Fase Gaseosa del Suelo",
-        "desciption": "Es el espacio poroso en medio del cual circulan el aire y el agua tan importantes para el desarrollo de las raíces de las plantas."
+        "title": "Hervíboros",
+        "desciption": "Organismos cuya alimentación se basa en las hierbas."
       }
     ]
   },  
@@ -49,12 +39,8 @@
     "letter": "M",
     "terms": [
       {
-        "title": "Material Parental",
-        "desciption": "Es el material orgánico y el inorgánico a partir del cual se conforma el suelo."
-      },
-      {
         "title": "Micorrizas",
-        "desciption": "Son asociaciones simbióticas entre las raíces de las plantas y determinados hongos del suelo produciendo efectos benéficos para las plantas como mayor tolerancia a sequías, a plagas y enfermedades. "
+        "desciption": "Es asociación entre las raíces de las plantas y los hongos del suelo, que producen una serie de efectos benéficos a las plantas, como, por ejemplo, mayor vigor y resistencia a plagas y enfermedades."
       }
     ]
   },
@@ -62,12 +48,30 @@
     "letter": "N",
     "terms": [
       {
-        "title": "Necrosis",
-        "desciption": "Es muerte del tejido. "
+        "title": "Nematodos",
+        "desciption": "Son gusanos de tamaño pequeño y forma cilíndrica que habitan en el suelo e infestan las raíces de la planta, causándoles problemas fisiológicos. "
       },
       {
-        "title": "Nutrientes Antagónicos",
-        "desciption": "Son determinados nutrientes presentes en la solución del suelo, que afectan de manera negativa la disponibilidad y la absorción de otros nutrientes por parte de las plantas. "
+        "title": "Ninfa",
+        "desciption": "Es una fase juvenil por la que pasan los insectos que tienen ciclo de vida incompleto. "
+      }
+    ]
+  },    
+  {
+    "letter": "P",
+    "terms": [
+      {
+        "title": "Pupa",
+        "desciption": "Es una fase juvenil por la que pasan los insectos que tienen ciclo de vida completo, es la fase de transición entre larva y adulto. "
+      }
+    ]
+  },    
+  {
+    "letter": "R",
+    "terms": [
+      {
+        "title": "Rizósfera",
+        "desciption": "Es la zona de interacción entre las raíces de las plantas y los microorganismos que se encuentras en porción del suelo que está en esa zona de influencia."
       }
     ]
   },    
@@ -75,8 +79,17 @@
     "letter": "S",
     "terms": [
       {
-        "title": "Salinidad",
-        "desciption": "Es la acumulación de sales solubles que producen degradación del suelo y de las plantas. "
+        "title": "Solarización del suelo",
+        "desciption": "Actividad por medio de la cual se desinfesta el suelo a través del calor producido por el sol. Controla plagas, semillas de malas hierbas y otros organismos. No es recomendable porque controlar por igual organismos dañinos y benéficos."
+      }
+    ]
+  },    
+  {
+    "letter": "T",
+    "terms": [
+      {
+        "title": "Trichoderma",
+        "desciption": "Es un hongo que tiene fuertes efectos para controlar otros hongos fitopatógenos, se utiliza aplicándolo las semillas, a las hojas por medio de aspersiones, o inoculando en el suelo."
       }
     ]
   }

@@ -3,40 +3,219 @@ include ../mixins/functions
 +pageHeader('La sanidad vegetal en la agricultura ecológica', 'assets/images/header/header_media.svg')
 
 .container
+    .header-ecored
+        h1 4. ENFERMEDADES
+
+        p Existen dos tipos de enfermedades que afectan las plantas: las enfermedades fisiológicas que son causadas por agentes físicos o químicos, por ejemplo, estrés hídrico, intoxicación por algún químico, altas o bajas temperaturas, problemas de humedad, deficiencias nutricionales, salinidad del suelo y polución, entre otras. Y las enfermedades patológicas que son causadas por organismos, de los cuales se ha detectado que existen unas 8.000 especies de hongos, 180 de bacterias, 500 de nematodos y más de 1.000 virus que pueden afectar las plantas. 
+
+        p para que una enfermedad se manifieste en una planta, es necesario la conjugación  de tres factores determinantes, lo que comúnmente es denominado como triángulo enfermedad:
+
+.container 
+    .row-12       
+        img.img-a.mt-5(src="assets/images/pages/ilustraciones/enfermedades.png").img-fluid
+    .row
+        .col.text-center
+            p.m-0(style="padding-top: 10px")
+            |Figura 25. Triángulo de la Enfermedad - Fuente SENA tomado de: 
+            a.m-0.p-0(href="https://www.pthorticulture.com/es/centro-de-formacion/introduccion-a-las-enfermedades-de-las-raices-triangulo-de-las-enfermedades/", target="_blank") https://www.pthorticulture.com/es/centro-de-formacion/introduccion-a-las-enfermedades-de-las-raices-triangulo-de-las-enfermedades/
+    
+    p.mt-5 Cuando existen estas tres condiciones, es decir, hay un huésped u hospedero, que en este caso es la planta; un patógeno, que es el agente causante de la enfermada como tal, o sea el hongo, la  bacteria o el  virus; y las condiciones ambientales son propicias, el único resultado posible, es la aparición de los síntomas y signos de la enfermedad con las consecuencias para el cultivo. 
+
+    p El efecto visible que una enfermedad causa en una planta se denomina síntoma, el cual resulta de los mecanismos de los tres factores del triángulo de la enfermedad.
 
     .header-ecored
-        h1 4. Manejo y conservación de suelos
-    .col-12
-        .row.no-gutters            
-            .col-md-6.my-7
-                p La utilización del suelo y demás recursos naturales sin tomar medidas de conservación, han conducido a la degradación  p La utilización del suelo y demás recursos naturales sin tomar medidas de conservación, han conducido a la degradación continua de este importante recurso. El deterioro del suelo como sustentos de las plantas, es muy grave en e incluye factores como los siguientes:            
-                p.m-0(style="padding-top: 10px").text-center
-                |Figura 13. Efectos de la Degradación del Suelo - Fuente SENA tomado de: 
-                a.m-0.p-0(href="http://www.fao.org/soils-portal/soil-management/conservacion-del-suelo/es/", target="_blank") http://www.fao.org/soils-portal/soil-management/conservacion-del-suelo/es/
+        
+        h1.mt-5 4.1 Síntomas
 
-            .col-md-6.text-center(style="background-image: url('assets/images/pages/ilustraciones/manejo.png'); background-size: contain; background-repeat: no-repeat")
+        p Los principales síntomas de las plantas son:
 
+        #accordionExample.accordion
+            .card
+                #headingOne.card-header
+                    h2.mb-0
+                        button.btn.btn-link(type='button', data-toggle='collapse', data-target='#collapseOne', aria-expanded='true', aria-controls='collapseOne')
+                            p(style="color:#00223D") 4.1.1 Alteraciones del Crecimiento
+                #collapseOne.collapse.show(aria-labelledby='headingOne', data-parent='#accordionExample')
+                    .card-body(style="background-color:#F3F7FA")
+                        
+                        p.mt-2 Enanismo: Plantas que no alcanzan el tamaño normal. 
+
+                        p.mt-2 Deformaciones: Órganos de las plantas con forma anómala. 
+
+                        p.mt-2 Agallas: Protuberancias en raíces o tallos debido al crecimiento celular exagerado.
+
+                        p.mt-2 Escoba de bruja: Cerca del ápice del tallo ocurre una proliferación anormal de brotes.
+
+            .card
+                #headingTwo.card-header
+                    h2.mb-0
+                        button.btn.btn-link.collapsed(type='button', data-toggle='collapse', data-target='#collapseTwo', aria-expanded='false', aria-controls='collapseTwo')
+                            p(style="color:#00223D") 4.1.2 Alteraciones en la Coloración
+                #collapseTwo.collapse(aria-labelledby='headingTwo', data-parent='#accordionExample')
+                    .card-body(style="background-color:#F3F7FA")
+                        p Clorosis: Cuando el contenido clorofila no es el normal, se da una coloración amarillenta en las hojas de las plantas.
+
+            .card
+                #headingThree.card-header
+                    h2.mb-0
+                        button.btn.btn-link.collapsed(type='button', data-toggle='collapse', data-target='#collapseThree', aria-expanded='false', aria-controls='collapseThree')
+                            p(style="color:#00223D") 4.1.3 Muerte del Tejido
+                #collapseThree.collapse(aria-labelledby='headingThree', data-parent='#accordionExample')
+                    .card-body(style="background-color:#F3F7FA")
+
+                        p.mt-2 Necrosis: Se da principalmente el follaje presentando tejidos secos de color blanquecino, grisáceo, pardo o rojizo.
+
+                        p.mt-2 Pudrición: Cuando el tejido muere se vuelve húmedo y acuoso. 
+
+                        p.mt-2 Chancro: Tejido muerto hundido en plantas leñosas y troncos. 
+
+                        p.mt-2 Muerte descendente: También conocido como “Damping off”, es el secamiento de ramas en la planta, se da afuera hacia adentro y de arriba hacia abajo.
+
+                        p.mt-2 Marchitez: La planta pierde su vigor y en algunas ocasiones muere.
+
+    .header-ecored
+        
+        h1.mt-5 4.2 Signos 
+
+        p Otro mecanismo para reconocer muchas enfermedades de los vegetales son los signos por medio de los cuales	se manifiesta el agente patógeno y que son fácilmente observables. Dentro de los principales signos de las enfermedades se encuentran las estructuras vegetativas o reproductivas de los hongos, los exudados de las bacterias y las masas de huevos de los nematodos. 
+
+        p Los hongos, bacterias, virus y nematodos tienen características propias, al igual que las enfermedades que producen. En los siguientes diagramas se verán las principales propiedades de cada uno de estos agentes patógenos.  
+
+    .header-ecored
+        
+        h1.mt-5 4.3 Características de los Hongos Fitopatógenos
+
+        p Otro mecanismo para reconocer muchas enfermedades de los vegetales son los signos por medio de los cuales	se manifiesta el agente patógeno y que son fácilmente observables. Dentro de los principales signos de las enfermedades se encuentran las estructuras vegetativas o reproductivas de los hongos, los exudados de las bacterias y las masas de huevos de los nematodos. 
+
+        p Los hongos, bacterias, virus y nematodos tienen características propias, al igual que las enfermedades que producen. En los siguientes diagramas se verán las principales propiedades de cada uno de estos agentes patógenos. 
+
+
+.container 
+    .row-12       
+        img.img-a.mt-5(src="assets/images/pages/ilustraciones/hongos.png").img-fluid
+    .row
+        .col.text-center
+            p.m-0(style="padding-top: 10px")
+            |Figura 26. Características de los Hongos Fitopatógenos - Fuente SENA
+
+    p.mt-5 En las plantas estos organismos generalmente causan manchas en las hojas o frutos, las cuales en la mayoría de ocasiones presentan las estructuras del hongo. Son más susceptibles los cultivos a este tipo de patógenos, en las épocas del verano.
+
+    .header-ecored
+        
+        h1.mt-5 4.4 Características de las Bacterias Fitopatógenas
 
 .container
-    .col-12
-        .card.my-6
-            .row.no-gutters               
-                .col-md-6
-                    .card-body(style="background-color:#00223D; border-radius:6px 0px 0px 6px")
-                        .card-text.my-7
-                            p(style="color: white") La utilización del suelo y demás recursos naturales sin tomar medidas de conservación, han conducido a la degradación continua de este importante recurso. El deterioro del suelo como sustentos de las plantas, es muy grave en e incluye factores como los siguientes: 
-                            p.m-0(style="padding-top: 10px").text-center
-                            |
-                            a.m-0.p-0(href="http://www.fao.org/soils-portal/soil-management/conservacion-del-suelo/es/", target="_blank") http://www.fao.org/soils-portal/soil-management/conservacion-del-suelo/es/
-           
-                            
-                .col-md-6(style="border-radius: 0px 6px 6px 0px; background-image: url('assets/images/pages/ilustraciones/degradacion.png');background-size: cover; background-repeat: no-repeat" )
+    .header-ecored
+        .row-12(style="background-color:#80DEEA; border-radius:10px").mt-3.py-3
+            .row.px-3 
+                .col-auto.col-md-2
+                    img.img-a(src="assets/images/pages/ilustraciones/1.png").img-fluid
+                .col-10
+                    p.mt-2 Son organismos unicelulares microscópicos que se reproducen por división celular. 
 
-        p Se aplican por lo tanto, medidas como la agricultura de conservación, las Buenas Prácticas Agrícolas, el manejo de riegos y el Manejo Integrado de la Nutrición de Plantas, para asegurar mayor beneficio económico y social al hombre y su ambiente. 
+        .row-12(style="background-color:#80DEEA; border-radius:10px").mt-3.py-3
+            .row.px-3 
+                .col-auto.col-md-2
+                    img.img-a(src="assets/images/pages/ilustraciones/2.png").img-fluid
+                .col-10
+                    p.mt-2 Las enfermedades son difícil control, por lo cual las medidas deben ser preventivas, como utilizar semilla o material vegetativo procedente de campos libres de enfermedades, usar variedades resistentes, etc. 
 
-        h1.mt-5 4.1 Prácticas de Conservación del Suelo 
- 
-        p A nivel mundial se realizan diferentes prácticas agrícolas que propenden por la conservación de las propiedades	físicas, químicas y biológicas del suelo. Las principales son: 
+        .row-12(style="background-color:#80DEEA; border-radius:10px").mt-3.py-3
+            .row.px-3 
+                .col-auto.col-md-2
+                    img.img-a(src="assets/images/pages/ilustraciones/3.png").img-fluid
+                .col-10
+                    p.mt-2 Pueden ser diseminadas por lluvia, agua, movimiento de suelo o material de siembra, animales portadores, vectores y el viento.
 
-    .embed-responsive.embed-responsive-16by9
-        iframe.embed-responsive-item(width='560', height='315', src='https://www.youtube.com/embed/RFWax6M079k', frameborder='0', allow='accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture', allowfullscreen='')     
+        .row-12(style="background-color:#80DEEA; border-radius:10px").mt-3.py-3
+            .row.px-3 
+                .col-auto.col-md-2
+                    img.img-a(src="assets/images/pages/ilustraciones/4.png").img-fluid
+                .col-10
+                    p.mt-2 Las plantas infectadas producen exudados con grandes cantidades de bacterias que fácilmente son transportadas por el salpique de las gotas de agua.
+
+        .row-12(style="background-color:#80DEEA; border-radius:10px").mt-3.py-3
+            .row.px-3 
+                .col-auto.col-md-2
+                    img.img-a(src="assets/images/pages/ilustraciones/5.png").img-fluid
+                .col-10
+                    p.mt-2 El transporte de bacterias por el viento es el menos común.  
+
+        .row
+            .col.text-center.mt-3
+                p.m-0(style="padding-top: 10px")
+                |Figura 27. Características de las Bacterias Fitopatógenas - Fuente SENA   
+
+        p.mt-5 Las bacterias producen en los tejidos vegetales manchas acuosas, generalmente del mal olor. Los cultivos son más susceptibles a estos problemas en épocas invernales. 
+
+.container
+    .header-ecored
+        
+        h1.my-5 4.5 Características de los Virus Fitopatógenos 
+
+        .row-12(style="background-color:#80DEEA; border-radius:10px").mt-3.py-3
+            .row.px-3 
+                .col-auto.col-md-2
+                    img.img-a(src="assets/images/pages/ilustraciones/1.png").img-fluid
+                .col-10
+                    p.mt-2 Son agentes infecciosos formados por material genético ARN o ADNrodeado por una proteína; son mucho más pequeños que las bacterias. 
+
+        .row-12(style="background-color:#80DEEA; border-radius:10px").mt-3.py-3
+            .row.px-3  
+                .col-auto.col-md-2
+                    img.img-a(src="assets/images/pages/ilustraciones/2.png").img-fluid
+                .col-10
+                    p.mt-2 En los vegetales los más conocidos son los mosaicos que afectan el tabaco, papa, tomate, papaya, entre otras. 
+
+        .row-12(style="background-color:#80DEEA; border-radius:10px").mt-3.py-3
+            .row.px-3 
+                .col-auto.col-md-2
+                    img.img-a(src="assets/images/pages/ilustraciones/3.png").img-fluid
+                .col-10
+                    p.mt-2 Algunos son transmitidos por insectos, entre los cuales los más frecuentes son los áfidos, moscas blancas y saltamontes.
+
+        .row-12(style="background-color:#80DEEA; border-radius:10px").mt-3.py-3
+            .row.px-3 
+                .col-auto.col-md-2
+                    img.img-a(src="assets/images/pages/ilustraciones/4.png").img-fluid
+                .col-10
+                    p.mt-2 Su manejo es preventivo e incluyen el uso de variedades resistentes, control de insectos vectores y de malezas hospederas, y obtención de plantas libres de virus.
+        .row
+            .col.text-center.mt-3
+                p.m-0(style="padding-top: 10px")
+                |Figura 28. Características de los Virus Fitopatógenos - Fuente SENA  
+
+        p.mt-5 La principal característica del ataque de virus a una planta, es la deformación de sus estructuras vegetales. Como se verá más adelante, generalmente estos patógenos son transmitidos por insectos y también por herramientas.  
+.container
+    .header-ecored
+        
+        h1.mt-5 4.5 Características de los Virus Fitopatógenos 
+
+        .row
+            .col-12.col-md-4
+                img.img-a(src="assets/images/pages/ilustraciones/caracteristicas.png").img-fluid
+            .col-12.col-md-8 
+                img.img-a.mt-2(src="assets/images/pages/ilustraciones/d1.png").img-fluid
+                img.img-a.mt-2(src="assets/images/pages/ilustraciones/d2.png").img-fluid
+                img.img-a.mt-2(src="assets/images/pages/ilustraciones/d3.png").img-fluid
+        .row.mt-5
+            .col-12.col-md-4
+                img.img-a(src="assets/images/pages/ilustraciones/caracteristicas2.png").img-fluid
+            .col-12.col-md-8 
+                img.img-a.mt-2(src="assets/images/pages/ilustraciones/d4.png").img-fluid
+                img.img-a.mt-2(src="assets/images/pages/ilustraciones/d5.png").img-fluid
+        .row.mt-5
+            .col-12.col-md-4
+                img.img-a(src="assets/images/pages/ilustraciones/caracteristicas3.png").img-fluid
+            .col-12.col-md-8 
+                img.img-a.mt-2(src="assets/images/pages/ilustraciones/d6.png").img-fluid
+                img.img-a.mt-2(src="assets/images/pages/ilustraciones/d7.png").img-fluid
+                img.img-a.mt-2(src="assets/images/pages/ilustraciones/d8.png").img-fluid
+
+        .row
+            .col.text-center.mt-3
+                p.m-0(style="padding-top: 10px")
+                |Figura 29. Características de los Nematodos - Fuente SENA
+
+        p.mt-5 El ataque de nematodos en una plantación produce síntomas muy concretos dependiendo de la especie atacada. La confirmación de la presencia de estos patógenos se da al arrancar la planta afectada y observar en su sistema radicular los nódulos causados por los nematodos. 
+            
