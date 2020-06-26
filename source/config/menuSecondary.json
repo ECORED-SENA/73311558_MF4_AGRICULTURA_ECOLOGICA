@@ -3,7 +3,7 @@
         "icon": "fa fa-download",
         "slug": "pdf",
         "title": "Descargar PDF",
-        "path": "media/documentos/MF1_Aspectos_basicos_del_patronaje_de_la_falda_clasica.pdf"
+        "path": "media/documentos/MF4_sanidad_vegetal.pdf"
     },
     {
         "icon": "icon glosario",
@@ -12,6 +12,12 @@
         "breadcrumb": ["Glosario"],
         "path": "config/glosario.json"
     },
+    {
+        "icon": "fa fa-folder-open-o",
+        "slug": "material-complementario",
+        "title": "Material complementario",
+        "path": "pages/material-complementario.html"
+    },    
     {
         "icon": "icon referencias",
         "slug": "referencias",
@@ -27,5 +33,5 @@
             "Créditos"
         ],
         "path": "pages/creditos.html"
-    }
-]    
+    }    
+]
