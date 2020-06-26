@@ -14,13 +14,13 @@
       {
         "icon": "fa fa-file-text-o",
         "slug": "fisiologia-vegetal",
-        "title": "1.1 El Sistema Foliar",
+        "title": "1.1 El sistema foliar",
         "anchor": "sistema"
       },
       {
         "icon": "fa fa-file-text-o",
         "slug": "fisiologia-vegetal",
-        "title": "1.2 El Tallo",
+        "title": "1.2 El tallo",
         "anchor": "tallo"
       },
       {
@@ -32,13 +32,13 @@
       {
         "icon": "fa fa-file-text-o",
         "slug": "fisiologia-vegetal",
-        "title": "1.4 La Fotosíntesis ",
+        "title": "1.4 La fotosíntesis ",
         "anchor": "foto"
       },
       {
         "icon": "fa fa-file-text-o",
         "slug": "fisiologia-vegetal",
-        "title": "1.5 La Alimentación de las plantas",
+        "title": "1.5 La alimentación de las plantas",
         "anchor": "ali"
       }
     ]       
@@ -72,19 +72,19 @@
       {
         "icon": "fa fa-file-text-o",
         "slug": "plagas",
-        "title": "3.1 Características de los Insectos",
+        "title": "3.1 Características de los insectos",
         "anchor": "ci"
       },
       {
         "icon": "fa fa-file-text-o",
         "slug": "plagas",
-        "title": "3.2 Insectos Plaga",
+        "title": "3.2 Insectos plaga",
         "anchor": "cp"
       },
       {
         "icon": "fa fa-file-text-o",
         "slug": "plagas",
-        "title": "3.3 Insectos Benéficos ",
+        "title": "3.3 Insectos benéficos ",
         "anchor": "cb"
       }
     ]  
@@ -110,25 +110,25 @@
       {
         "icon": "fa fa-file-text-o",
         "slug": "enfermedades",
-        "title": "4.3 Características de los Hongos Fitopatógenos",
+        "title": "4.3 Características de los hongos fitopatógenos",
         "anchor": "ch"
       },
       {
         "icon": "fa fa-file-text-o",
         "slug": "enfermedades",
-        "title": "4.4 Características de las Bacterias Fitopatógenas",
+        "title": "4.4 Características de las bacterias fitopatógenas",
         "anchor": "cb"
       },
       {
         "icon": "fa fa-file-text-o",
         "slug": "enfermedades",
-        "title": "4.5 Características de los Virus Fitopatógenos",
+        "title": "4.5 Características de los virus fitopatógenos",
         "anchor": "cv"
       },
       {
         "icon": "fa fa-file-text-o",
         "slug": "enfermedades",
-        "title": "4.6 Características de los Nematodos",
+        "title": "4.6 Características de los nematodos",
         "anchor": "cn"
       }
     ]
@@ -142,7 +142,7 @@
       {
         "icon": "fa fa-file-text-o",
         "slug": "alelopatia",
-        "title": "5.1 Tipos de Control Alelopático",
+        "title": "5.1 Tipos de control alelopático",
         "anchor": "tipo"
       }
     ] 
@@ -156,13 +156,13 @@
       {
         "icon": "fa fa-file-text-o",
         "slug": "caldos-para-el-control-de-plagas-y-enfermedades",
-        "title": "6.1 Para el Manejo de plagas",
+        "title": "6.1 Para el manejo de plagas",
         "anchor": "plaga"
       },
       {
         "icon": "fa fa-file-text-o",
         "slug": "caldos-para-el-control-de-plagas-y-enfermedades",
-        "title": "6.2 Para Manejo de Enfermedades ",
+        "title": "6.2 Para manejo de enfermedades ",
         "anchor": "enf"
       }
     ]  
