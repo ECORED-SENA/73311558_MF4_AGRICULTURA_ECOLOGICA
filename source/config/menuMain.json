@@ -2,11 +2,18 @@
   {
     "icon": "fa fa-home",
     "slug": "external",
-    "title": "Volver al Inicio",
+    "title": "Volver al inicio",
     "path": "index.html"
   },  
   {
     "icon": "fa fa-play-circle",
+    "slug": "introduccion",
+    "title": "Introducción",
+    "breadcrumb": ["Inicio","Introducción"],
+    "path": "pages/intro.html"
+  },
+  {
+    "icon": "fa fa-file-text-o",
     "slug": "fisiologia-vegetal",
     "title": "1. Fisiologia vegetal",
     "path": "pages/1-tema.html",
