@@ -19,13 +19,9 @@ include ../mixins/functions
     |La fisiología vegetal tiene que ver con aspectos fundamentales de las plantas como: 
 
 .container 
-    .row-12       
-        img.img-a.mt-7(src="assets/images/pages/ilustraciones/fisiologia.png").img-fluid
-    .row
-        .col.text-center
-            p.m-0(style="padding-top: 10px")
-            |Figura 2. Aspectos de la Fisiología Vegetal - Fuente SENA tomado de: 
-            a.m-0.p-0(href="https://www.unapiquitos.edu.pe/pregrado/facultades/forestales/descargas/publicaciones/FISIO-TEX.pdf", target="_blank") https://www.unapiquitos.edu.pe/pregrado/facultades/forestales/descargas/publicaciones/FISIO-TEX.pdf
+    .row     
+        img.img-a.mt-5(src="assets/images/pages/ilustraciones/fisiologia.png").img-fluid
+
 
     p.mt-5 Dentro de los aspectos en los que la fisiología vegetal tiene injerencia se encuentra el control de plagas y enfermedades y la asimilación de los fertilizantes por las plantas. A continuación, se verán los tres órganos principales relacionados con estos aspectos.
 
@@ -41,26 +37,18 @@ include ../mixins/functions
 
         |El contenido de sustancias en una hoja es como se aprecia en la siguiente imagen:
 
-    .row-12       
-        img.img-a.mt-7(src="assets/images/pages/ilustraciones/sistema1.png").img-fluid
-    .row
-        .col.text-center
-            p.m-0(style="padding-top: 10px")
-            |Figura 4. Composición de las Hojas de las Plantas - Fuente SENA tomado de: 
-            a.m-0.p-0(href="http://www.mag.go.cr/congreso_agronomico_x/a50-2388-III_115.pdf", target="_blank") http://www.mag.go.cr/congreso_agronomico_x/a50-2388-III_115.pdf
+    .row     
+        img.img-a.mt-5(src="assets/images/pages/ilustraciones/sistema1.png").img-fluid
+
 .container
     .header-ecored
         p.mt-5 Existe una estrecha relación entre el contenido nutricional de las hojas de las plantas y el rendimiento del cultivo. Es por eso que los análisis foliares brindan una información muy importante relacionada con la cantidad de nutrientes presentes en el cultivo, lo que permite tomar decisiones con respecto al plan de fertilización a aplicar. 
 
         |Es necesario conocer que las hojas también pueden perder cantidades importantes de nutrientes a través de dos procesos:
 
-    .row-12       
+    .row     
         img.img-a.mt-7(src="assets/images/pages/ilustraciones/sistema2.png").img-fluid
-    .row
-        .col.text-center
-            p.m-0(style="padding-top: 10px")
-            |Figura 5. Pérdida de nutrientes por las hojas - Fuente SENA tomado de: 
-            a.m-0.p-0(href="http://www.mag.go.cr/congreso_agronomico_x/a50-2388-III_115.pdf", target="_blank") http://www.mag.go.cr/congreso_agronomico_x/a50-2388-III_115.pdf
+
     #tallo
 .container
     .header-ecored
@@ -78,9 +66,7 @@ include ../mixins/functions
         p.my-5 Los tallos también tienen la función de brindar soporte estructural a las plantas, lo que les permite mantener las hojas, los frutos y las flores en su lugar y evitar que caigan al suelo prematuramente.
 
         |Además de lo anterior, el tallo es un importante órgano que cumple con la función de reserva de agua, minerales y compuestos orgánicos, los cuales son movilizados por el sistema xilema-floema en periodos de estrés, que pueden ser causados por múltiples factores como: exceso o déficit hídrico, por defoliación de la planta, por podas y por ataque de plagas y enfermedades entre otros.
-        br
-        br
-        a.m-0.p-0(href="https://www.lifeder.com/funciones-tallo-planta/", target="_blank") https://www.lifeder.com/funciones-tallo-planta/
+
     
     #sr
     .header-ecored
@@ -95,64 +81,48 @@ include ../mixins/functions
     .header-ecored
     img.img-a(src="assets/images/pages/ilustraciones/sistemar.png" style= "width:100%; display:flex").mt-5.img-fluid
 
-    .row-12(style="background-color:#573B1C; border-radius:0px 0px 10px 10px")
+    .row-12.tb-1
         .container
-            .row-mb5
-                .row
-                    .col-12.col-md-3.mt-3
-                        .card
-                            .card-body(style="background-color:#FFFFDE")
-                                strong Anclaje
-                                p.mt-3 Capacidad de explorar grandes profundidades para establecer una red de sostenimiento que soporte el crecimiento de la planta.
-                    .col-12.col-md-3.mt-3
-                        .card
-                            .card-body(style="background-color:#FFFFDE")        
-                                strong Extración de Agua
-                                p.mt-3 Importante vehículo para obtener este líquido del suelo y transportar los nutrientes, funciona como medio para la mayoría de reacciones bioquímicas en la planta. 
-                    .col-12.col-md-3.mt-3
-                        .card
-                            .card-body(style="background-color:#FFFFDE")        
-                                strong Extracción de Nutrientes
-                                p.mt-3 Es la forma como los vegetales toman los nutrientes minerales que necesitan para su crecimiento y desarrollo.
-                    .col-12.col-md-3.mt-3
-                        .card
-                            .card-body(style="background-color:#FFFFDE")        
-                                strong Producción de Fitohormonas
-                                p.mt-3 En el ápice de las raíces se produce citoquinina, que es una hormona encargada de estimular el crecimiento de los órganos de la parte aérea de la planta.
+            .row
+                .col-12.col-md-3.mt-3
+                    .card
+                        .card-body.bg-color
+                            strong Anclaje
+                            p.mt-3 Capacidad de explorar grandes profundidades para establecer una red de sostenimiento que soporte el crecimiento de la planta.
+                .col-12.col-md-3.mt-3
+                    .card
+                        .card-body.bg-color      
+                            strong Extración de Agua
+                            p.mt-3 Importante vehículo para obtener este líquido del suelo y transportar los nutrientes, funciona como medio para la mayoría de reacciones bioquímicas en la planta. 
+                .col-12.col-md-3.mt-3
+                    .card
+                        .card-body.bg-color      
+                            strong Extracción de Nutrientes
+                            p.mt-3 Es la forma como los vegetales toman los nutrientes minerales que necesitan para su crecimiento y desarrollo.
+                .col-12.col-md-3.mt-3
+                    .card
+                        .card-body.bg-color      
+                            strong Producción de Fitohormonas
+                            p.mt-3 En el ápice de las raíces se produce citoquinina, que es una hormona encargada de estimular el crecimiento de los órganos de la parte aérea de la planta.
 
-    .row
-        .col.text-center
-            p.m-0(style="padding-top: 10px")
-            |Figura 7. Funciones de la Raíz  - Fuente SENA tomado de: 
-            a.mt-3(href="http://www.redagricola.com/cl/la-raiz-es-el-cerebro-de-la-planta/", target="_blank") http://www.redagricola.com/cl/la-raiz-es-el-cerebro-de-la-planta/
+
 .container
     .header-ecored
         p.my-5 Los tallos también tienen la función de brindar soporte estructural a las plantas, lo que les permite mantener las hojas, los frutos y las flores en su lugar y evitar que caigan al suelo prematuramente.
 
         |Además de lo anterior, el tallo es un importante órgano que cumple con la función de reserva de agua, minerales y compuestos orgánicos, los cuales son movilizados por el sistema xilema-floema en periodos de estrés, que pueden ser causados por múltiples factores como: exceso o déficit hídrico, por defoliación de la planta, por podas y por ataque de plagas y enfermedades entre otros.
-            
-        a.mt-3(href="https://www.lifeder.com/funciones-tallo-planta/", target="_blank") https://www.lifeder.com/funciones-tallo-planta/
 
-    .row
-        .col-12.col-md-6
-            img.img-a.mt-5(src="assets/images/pages/ilustraciones/radicular1.png").img-fluid
-            p.text-center Figura 8. Sistema Radicular Profundo
-        .col-12.col-md-6.mt-2
-            img.img-a.mt-5(src="assets/images/pages/ilustraciones/radicular2.png").img-fluid
-            p.text-center.mt-2 Figura 9. Sistema Radicular Superficial
+
 .container
     .header-ecored
         p.mt-5 Se domina rizósfera a la porción de suelo en la que hay una influencia directa de la actividad de las raíces de la planta, tiene propiedades diferentes de acuerdo con el lugar de la raíz donde se encuentra. La abundancia y tipo de minerales,  microorganismos y sustancias liberadas por la planta en esta área, proporciona información relevante para el manejo y nutrición de los cultivos. Además, la actividad microbiana que ocurre en esta zona, contribuye de manera valiosa a la descontaminación del suelo ocurrida por factores como: petróleo, selenio, aluminio. 
 
-        |El desarrollo radicular de las plantas está condicionado en primera medida por factores genéticos propios de la especie vegetal, pero intervienen también otros factores como los siguientes:
-    .card.mt-5(style="background-color:#F3F7FA")
+    .card.mt-5.bg-color-1
         .card-body
-            .row
+            .row.justify-content-center.align-items-center
                 .col-12.col-md-6.align-items-center
-                    p.mb-7 El desarrollo radicular de las plantas está condicionado en primera medida por factores genéticos propios de la especie vegetal, pero intervienen también otros factores como los siguientes:
-                    p.m-0(style="padding-top: 10px")
-                        |Figura 10. Factores que intervienen  en el desarrollo de la Raíz - Fuente SENA tomado de: 
-                    a.mt-3(href="http://www.redagricola.com/cl/la-raiz-es-el-cerebro-de-la-planta/", target="_blank") http://www.redagricola.com/cl/la-raiz-es-el-cerebro-de-la-planta/
+                    p.mb-0 El desarrollo radicular de las plantas está condicionado en primera medida por factores genéticos propios de la especie vegetal, pero intervienen también otros factores como los siguientes:
+
 
                 .col-12.col-md-6
                     img.img-a(src="assets/images/pages/ilustraciones/radicular4.png").img-fluid
@@ -161,7 +131,7 @@ include ../mixins/functions
     .header-ecored
 
         p.my-5 Entre los microorganismos benéficos del suelo, se puede mencionar:
-        img.img-a(src="assets/images/pages/ilustraciones/radicular3.png" style="border-radius:10px").img-fluid
+        img.img-a.border(src="assets/images/pages/ilustraciones/radicular3.png").img-fluid
 
 .container
     .header-ecored
@@ -171,17 +141,12 @@ include ../mixins/functions
 
         p La fotosíntesis se define como un proceso metabólico por medio del cual algunas células de organismos autótrofos, logran producir a partir de la energía de la luz solar, su propia materia orgánica con sustancias inorgánicas.
 
-        img.img-a.mt-5(src="assets/images/pages/ilustraciones/foto.png" style="border-radius:10px").img-fluid
+        img.img-a.mt-5.border(src="assets/images/pages/ilustraciones/foto.png").img-fluid
 
         p.mt-5 La fotosíntesis es utilizada por los vegetales para crecer y desarrollarse, 	siendo la principal sustancia de este proceso la clorofila, que es una sustancia de color verde presente en todas las hojas y es la que se encarga de absorber la luz para realizar el proceso.
 
         img.img-a.mt-5(src="assets/images/pages/ilustraciones/foto1.png").img-fluid
 
-    .row
-        .col.text-center
-            p.m-0(style="padding-top: 10px")
-            |Figura 12. Fases de la Fotosíntesis - Fuente SENA tomado de: 
-            a.mt-3(href="https://www.portalfruticola.com/noticias/2016/11/24/fisiologia-vegetal-la-fotosintesis-el-proceso-que-alimenta-al-mundo/", target="_blank") https://www.portalfruticola.com/noticias/2016/11/24/fisiologia-vegetal-la-fotosintesis-el-proceso-que-alimenta-al-mundo/
 
 .container
     .header
@@ -194,19 +159,19 @@ include ../mixins/functions
         p.mt-5 Dentro de la fisiología vegetal, la fotosíntesis, es un proceso que ocupa especial atención, dado que es el sistema por medio del cual las plantas fabrican su propio alimento. 
 
         ul
-            li(style="color:#FF7F00")
-                h3(style="color:black") Absorción
-                p(style="color:black") El primer paso de este proceso consiste en la función que tienen las raíces de las plantas de absorber el agua y los minerales que se encuentran en el suelo. Es por eso que el crecimiento de las raíces está dirigido hacia los lugares donde el agua se encuentra mayor cantidad.
+            li.text-orange
+                h3.text-black Absorción
+                p.text-black El primer paso de este proceso consiste en la función que tienen las raíces de las plantas de absorber el agua y los minerales que se encuentran en el suelo. Es por eso que el crecimiento de las raíces está dirigido hacia los lugares donde el agua se encuentra mayor cantidad.
 
-            li(style="color:#FF7F00")
-                h3(style="color:black") Circulación
-                p(style="color:black") Cuando el agua y los nutrientes son absorbidos por la raíz, esto circulan en forma de savia bruta vía xilema, hasta llegar a la parte aérea de la planta, es decir, tallos, hojas, flores y frutos.
+            li.text-orange
+                h3.text-black Circulación
+                p.text-black Cuando el agua y los nutrientes son absorbidos por la raíz, esto circulan en forma de savia bruta vía xilema, hasta llegar a la parte aérea de la planta, es decir, tallos, hojas, flores y frutos.
 
-            li(style="color:#FF7F00")
-                h3(style="color:black") Fotosíntesis
-                p(style="color:black") Las hojas absorben la luz del sol y junto con el dióxido de carbono transforman la savia producto en savia elaborada, la cual desciende de las plantas vía floema y constituye el alimentos de cada una de las células de la planta. De manera simultánea las plantas producen oxígeno que es expulsado por las hojas a través de los estomas y las lenticelas.
+            li.text-orange
+                h3.text-black Fotosíntesis
+                p.text-black Las hojas absorben la luz del sol y junto con el dióxido de carbono transforman la savia producto en savia elaborada, la cual desciende de las plantas vía floema y constituye el alimentos de cada una de las células de la planta. De manera simultánea las plantas producen oxígeno que es expulsado por las hojas a través de los estomas y las lenticelas.
 
-            li(style="color:#FF7F00")
-                h3(style="color:black") Respiración
-                p(style="color:black") Las plantas realizan este proceso de manera similar a los animales. Inhalando CO2 y exhalando oxígeno. 
-                a.mt-3(href="https://concepto.de/fotosintesis/#ixzz619bQqP8R", target="_blank") https://concepto.de/fotosintesis/#ixzz619bQqP8R
+            li.text-orange
+                h3.text-black Respiración
+                p.text-black Las plantas realizan este proceso de manera similar a los animales. Inhalando CO2 y exhalando oxígeno. 
+

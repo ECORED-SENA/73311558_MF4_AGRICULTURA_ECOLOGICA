@@ -11,13 +11,9 @@ include ../mixins/functions
         p para que una enfermedad se manifieste en una planta, es necesario la conjugación  de tres factores determinantes, lo que comúnmente es denominado como triángulo enfermedad:
 
 .container 
-    .row-12       
+    .row      
         img.img-a.mt-5(src="assets/images/pages/ilustraciones/enfermedades.png").img-fluid
-    .row
-        .col.text-center
-            p.m-0(style="padding-top: 10px")
-            |Figura 25. Triángulo de la Enfermedad - Fuente SENA tomado de: 
-            a.m-0.p-0(href="https://www.pthorticulture.com/es/centro-de-formacion/introduccion-a-las-enfermedades-de-las-raices-triangulo-de-las-enfermedades/", target="_blank") https://www.pthorticulture.com/es/centro-de-formacion/introduccion-a-las-enfermedades-de-las-raices-triangulo-de-las-enfermedades/
+
     
     p.mt-5 Cuando existen estas tres condiciones, es decir, hay un huésped u hospedero, que en este caso es la planta; un patógeno, que es el agente causante de la enfermada como tal, o sea el hongo, la  bacteria o el  virus; y las condiciones ambientales son propicias, el único resultado posible, es la aparición de los síntomas y signos de la enfermedad con las consecuencias para el cultivo. 
 
@@ -35,44 +31,44 @@ include ../mixins/functions
                 #headingOne.card-header
                     h2.mb-0
                         button.btn.btn-link(type='button', data-toggle='collapse', data-target='#collapseOne', aria-expanded='true', aria-controls='collapseOne')
-                            p(style="color:#00223D") 4.1.1 Alteraciones del Crecimiento
+                            p.txt-a 4.1.1 Alteraciones del Crecimiento
                 #collapseOne.collapse.show(aria-labelledby='headingOne', data-parent='#accordionExample')
-                    .card-body(style="background-color:#F3F7FA")
+                    .card-body.bg-color-1
                         
-                        p.mt-2 Enanismo: Plantas que no alcanzan el tamaño normal. 
+                        p.mt-0 Enanismo: Plantas que no alcanzan el tamaño normal. 
 
-                        p.mt-2 Deformaciones: Órganos de las plantas con forma anómala. 
+                        p.mt-0 Deformaciones: Órganos de las plantas con forma anómala. 
 
-                        p.mt-2 Agallas: Protuberancias en raíces o tallos debido al crecimiento celular exagerado.
+                        p.mt-0 Agallas: Protuberancias en raíces o tallos debido al crecimiento celular exagerado.
 
-                        p.mt-2 Escoba de bruja: Cerca del ápice del tallo ocurre una proliferación anormal de brotes.
+                        p.mt-0 Escoba de bruja: Cerca del ápice del tallo ocurre una proliferación anormal de brotes.
 
             .card
                 #headingTwo.card-header
                     h2.mb-0
                         button.btn.btn-link.collapsed(type='button', data-toggle='collapse', data-target='#collapseTwo', aria-expanded='false', aria-controls='collapseTwo')
-                            p(style="color:#00223D") 4.1.2 Alteraciones en la Coloración
+                            p.txt-a 4.1.2 Alteraciones en la Coloración
                 #collapseTwo.collapse(aria-labelledby='headingTwo', data-parent='#accordionExample')
-                    .card-body(style="background-color:#F3F7FA")
+                    .card-body.bg-color-1
                         p Clorosis: Cuando el contenido clorofila no es el normal, se da una coloración amarillenta en las hojas de las plantas.
 
             .card
                 #headingThree.card-header
                     h2.mb-0
                         button.btn.btn-link.collapsed(type='button', data-toggle='collapse', data-target='#collapseThree', aria-expanded='false', aria-controls='collapseThree')
-                            p(style="color:#00223D") 4.1.3 Muerte del Tejido
+                            p.txt-a 4.1.3 Muerte del Tejido
                 #collapseThree.collapse(aria-labelledby='headingThree', data-parent='#accordionExample')
-                    .card-body(style="background-color:#F3F7FA")
+                    .card-body.bg-color-1
 
-                        p.mt-2 Necrosis: Se da principalmente el follaje presentando tejidos secos de color blanquecino, grisáceo, pardo o rojizo.
+                        p.mt-0 Necrosis: Se da principalmente el follaje presentando tejidos secos de color blanquecino, grisáceo, pardo o rojizo.
 
-                        p.mt-2 Pudrición: Cuando el tejido muere se vuelve húmedo y acuoso. 
+                        p.mt-0 Pudrición: Cuando el tejido muere se vuelve húmedo y acuoso. 
 
-                        p.mt-2 Chancro: Tejido muerto hundido en plantas leñosas y troncos. 
+                        p.mt-0 Chancro: Tejido muerto hundido en plantas leñosas y troncos. 
 
-                        p.mt-2 Muerte descendente: También conocido como “Damping off”, es el secamiento de ramas en la planta, se da afuera hacia adentro y de arriba hacia abajo.
+                        p.mt-0 Muerte descendente: También conocido como “Damping off”, es el secamiento de ramas en la planta, se da afuera hacia adentro y de arriba hacia abajo.
 
-                        p.mt-2 Marchitez: La planta pierde su vigor y en algunas ocasiones muere.
+                        p.mt-0 Marchitez: La planta pierde su vigor y en algunas ocasiones muere.
 
     #signo
     .header-ecored
@@ -94,12 +90,9 @@ include ../mixins/functions
 
 
 .container 
-    .row-12       
+    .row      
         img.img-a.mt-5(src="assets/images/pages/ilustraciones/hongos.png").img-fluid
-    .row
-        .col.text-center
-            p.m-0(style="padding-top: 10px")
-            |Figura 26. Características de los Hongos Fitopatógenos - Fuente SENA
+
 
     p.mt-5 En las plantas estos organismos generalmente causan manchas en las hojas o frutos, las cuales en la mayoría de ocasiones presentan las estructuras del hongo. Son más susceptibles los cultivos a este tipo de patógenos, en las épocas del verano.
 
@@ -110,45 +103,41 @@ include ../mixins/functions
 
 .container
     .header-ecored
-        .row-12(style="background-color:#80DEEA; border-radius:10px").mt-3.py-3
+        .row-12.tb-2.mt-3.py-3.justify-content-center.align-items-center
             .row.px-3 
                 .col-auto.col-md-2
                     img.img-a(src="assets/images/pages/ilustraciones/1.png").img-fluid
                 .col-10
-                    p.mt-2 Son organismos unicelulares microscópicos que se reproducen por división celular. 
+                    p.mt-0 Son organismos unicelulares microscópicos que se reproducen por división celular. 
 
-        .row-12(style="background-color:#80DEEA; border-radius:10px").mt-3.py-3
+        .row-12.tb-2.mt-3.py-3.justify-content-center.align-items-center
             .row.px-3 
                 .col-auto.col-md-2
                     img.img-a(src="assets/images/pages/ilustraciones/2.png").img-fluid
                 .col-10
-                    p.mt-2 Las enfermedades son difícil control, por lo cual las medidas deben ser preventivas, como utilizar semilla o material vegetativo procedente de campos libres de enfermedades, usar variedades resistentes, etc. 
+                    p.mt-0 Las enfermedades son difícil control, por lo cual las medidas deben ser preventivas, como utilizar semilla o material vegetativo procedente de campos libres de enfermedades, usar variedades resistentes, etc. 
 
-        .row-12(style="background-color:#80DEEA; border-radius:10px").mt-3.py-3
+        .row-12.tb-2.mt-3.py-3.justify-content-center.align-items-center
             .row.px-3 
                 .col-auto.col-md-2
                     img.img-a(src="assets/images/pages/ilustraciones/3.png").img-fluid
                 .col-10
-                    p.mt-2 Pueden ser diseminadas por lluvia, agua, movimiento de suelo o material de siembra, animales portadores, vectores y el viento.
+                    p.mt-0 Pueden ser diseminadas por lluvia, agua, movimiento de suelo o material de siembra, animales portadores, vectores y el viento.
 
-        .row-12(style="background-color:#80DEEA; border-radius:10px").mt-3.py-3
+        .row-12.tb-2.mt-3.py-3.justify-content-center.align-items-center
             .row.px-3 
                 .col-auto.col-md-2
                     img.img-a(src="assets/images/pages/ilustraciones/4.png").img-fluid
                 .col-10
-                    p.mt-2 Las plantas infectadas producen exudados con grandes cantidades de bacterias que fácilmente son transportadas por el salpique de las gotas de agua.
+                    p.mt-0 Las plantas infectadas producen exudados con grandes cantidades de bacterias que fácilmente son transportadas por el salpique de las gotas de agua.
 
-        .row-12(style="background-color:#80DEEA; border-radius:10px").mt-3.py-3
+        .row-12.tb-2.mt-3.py-3.justify-content-center.align-items-center
             .row.px-3 
                 .col-auto.col-md-2
                     img.img-a(src="assets/images/pages/ilustraciones/5.png").img-fluid
                 .col-10
-                    p.mt-2 El transporte de bacterias por el viento es el menos común.  
+                    p.mt-0 El transporte de bacterias por el viento es el menos común.  
 
-        .row
-            .col.text-center.mt-3
-                p.m-0(style="padding-top: 10px")
-                |Figura 27. Características de las Bacterias Fitopatógenas - Fuente SENA   
 
         p.mt-5 Las bacterias producen en los tejidos vegetales manchas acuosas, generalmente del mal olor. Los cultivos son más susceptibles a estos problemas en épocas invernales. 
 
@@ -158,37 +147,34 @@ include ../mixins/functions
         
         h1.my-5 4.5 Características de los virus fitopatógenos 
 
-        .row-12(style="background-color:#80DEEA; border-radius:10px").mt-3.py-3
+        .row-12.tb-2.mt-3.py-3.justify-content-center.align-items-center
             .row.px-3 
                 .col-auto.col-md-2
                     img.img-a(src="assets/images/pages/ilustraciones/1.png").img-fluid
                 .col-10
-                    p.mt-2 Son agentes infecciosos formados por material genético ARN o ADNrodeado por una proteína; son mucho más pequeños que las bacterias. 
+                    p.mt-0 Son agentes infecciosos formados por material genético ARN o ADNrodeado por una proteína; son mucho más pequeños que las bacterias. 
 
-        .row-12(style="background-color:#80DEEA; border-radius:10px").mt-3.py-3
+        .row-12.tb-2.mt-3.py-3.justify-content-center.align-items-center
             .row.px-3  
                 .col-auto.col-md-2
                     img.img-a(src="assets/images/pages/ilustraciones/2.png").img-fluid
                 .col-10
-                    p.mt-2 En los vegetales los más conocidos son los mosaicos que afectan el tabaco, papa, tomate, papaya, entre otras. 
+                    p.mt-0 En los vegetales los más conocidos son los mosaicos que afectan el tabaco, papa, tomate, papaya, entre otras. 
 
-        .row-12(style="background-color:#80DEEA; border-radius:10px").mt-3.py-3
+        .row-12.tb-2.mt-3.py-3.justify-content-center.align-items-center
             .row.px-3 
                 .col-auto.col-md-2
                     img.img-a(src="assets/images/pages/ilustraciones/3.png").img-fluid
                 .col-10
-                    p.mt-2 Algunos son transmitidos por insectos, entre los cuales los más frecuentes son los áfidos, moscas blancas y saltamontes.
+                    p.mt-0 Algunos son transmitidos por insectos, entre los cuales los más frecuentes son los áfidos, moscas blancas y saltamontes.
 
-        .row-12(style="background-color:#80DEEA; border-radius:10px").mt-3.py-3
+        .row-12.tb-2.mt-3.py-3.justify-content-center.align-items-center
             .row.px-3 
                 .col-auto.col-md-2
                     img.img-a(src="assets/images/pages/ilustraciones/4.png").img-fluid
                 .col-10
-                    p.mt-2 Su manejo es preventivo e incluyen el uso de variedades resistentes, control de insectos vectores y de malezas hospederas, y obtención de plantas libres de virus.
-        .row
-            .col.text-center.mt-3
-                p.m-0(style="padding-top: 10px")
-                |Figura 28. Características de los Virus Fitopatógenos - Fuente SENA  
+                    p.mt-0 Su manejo es preventivo e incluyen el uso de variedades resistentes, control de insectos vectores y de malezas hospederas, y obtención de plantas libres de virus.
+
 
         p.mt-5 La principal característica del ataque de virus a una planta, es la deformación de sus estructuras vegetales. Como se verá más adelante, generalmente estos patógenos son transmitidos por insectos y también por herramientas.  
 .container
@@ -218,10 +204,6 @@ include ../mixins/functions
                 img.img-a.mt-2(src="assets/images/pages/ilustraciones/d7.png").img-fluid
                 img.img-a.mt-2(src="assets/images/pages/ilustraciones/d8.png").img-fluid
 
-        .row
-            .col.text-center.mt-3
-                p.m-0(style="padding-top: 10px")
-                |Figura 29. Características de los Nematodos - Fuente SENA
 
         p.mt-5 El ataque de nematodos en una plantación produce síntomas muy concretos dependiendo de la especie atacada. La confirmación de la presencia de estos patógenos se da al arrancar la planta afectada y observar en su sistema radicular los nódulos causados por los nematodos. 
             

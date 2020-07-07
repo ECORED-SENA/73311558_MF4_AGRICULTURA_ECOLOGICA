@@ -2,11 +2,69 @@
     background-color: orange;
 }
 
+.text-white{
+    color: white;
+}
+.text-black{
+    color:black;
+}
+.text-orange{
+    color: #FF7F00;
+} 
 
-// Estilos tema 2
+.border{
+    border-radius: 10px;
+}
 
 .img-a {
     display:block;
     margin:auto;    
 }
 
+// estilos tema 1
+.bg-color{
+    background-color:#FFFFDE;
+}
+.tb-1{
+    background-color:#573B1C; 
+    border-radius:0px 0px 10px 10px;
+}
+.bg-color-1{
+    background-color:#F3F7FA;
+}
+
+// Estilos tema 2
+
+.bg-color-2{
+    background-color:#00223D;
+}
+
+.bg-color-green{
+    background-color:#4A8E14;
+}
+
+.bg-color-white{
+    background-color:#FFFFFF;
+}
+
+.txt-a{
+    color:#00223D;
+    font-size: 1.5rem;
+}
+
+// Estilos tema 4
+
+.tb-2{
+    background-color:#80DEEA;
+    border-radius:10px;
+}
+
+// Estilos tema 5
+
+.bg-color-3{
+    background-color:#EEF4B5;
+}
+
+.py-color{
+    background-color:#4B9DDF;
+}
