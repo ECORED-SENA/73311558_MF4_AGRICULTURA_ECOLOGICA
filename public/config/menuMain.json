@@ -164,13 +164,13 @@
         "icon": "fa fa-file-text-o",
         "slug": "caldos-para-el-control-de-plagas-y-enfermedades",
         "title": "6.1 Para el manejo de plagas",
-        "anchor": "plaga"
+        "anchor": "plaga6"
       },
       {
         "icon": "fa fa-file-text-o",
         "slug": "caldos-para-el-control-de-plagas-y-enfermedades",
         "title": "6.2 Para manejo de enfermedades ",
-        "anchor": "enf"
+        "anchor": "enf6"
       }
     ]  
   },
