@@ -15,7 +15,7 @@
   {
     "icon": "fa fa-file-text-o",
     "slug": "fisiologia-vegetal",
-    "title": "1. Fisiologia vegetal",
+    "title": "1. Fisiología vegetal",
     "path": "pages/1-tema.html",
     "submenu": [
       {
@@ -143,7 +143,7 @@
   {
     "icon": "fa fa-file-text-o",
     "slug": "alelopatia",
-    "title": "5. Alelopatia",
+    "title": "5. Alelopatía",
     "path": "pages/5-tema.html",
     "submenu": [
       {

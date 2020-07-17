@@ -17,8 +17,21 @@
       }
     ]
   }, 
-  {
+    {
     "letter": "F",
+    "terms": [
+      {
+        "title": "Fisiología Vegetal",
+        "desciption": "Es la ciencia que estudia las diferentes estructuras de las plantas, además, su funcionamiento interno con los procesos que se dan en su interior."        
+      },
+      {
+        "title": "Fitohormona",
+        "desciption": "Son sustancias químicas producidas principalmente en las hojas de las plantas y tienen dentro de sus funciones, controlar el crecimiento, la caída de las hojas, las floración, la formación del fruto y la germinación de las semillas. "        
+      }      
+    ]
+  }, 
+  {
+    "letter": "G",
     "terms": [
       {
         "title": "Gutación",
@@ -30,7 +43,7 @@
     "letter": "H",
     "terms": [
       {
-        "title": "Hervíboros",
+        "title": "Herbívoros",
         "desciption": "Organismos cuya alimentación se basa en las hierbas."
       }
     ]
@@ -49,7 +62,7 @@
     "terms": [
       {
         "title": "Nematodos",
-        "desciption": "Son gusanos de tamaño pequeño y forma cilíndrica que habitan en el suelo e infestan las raíces de la planta, causándoles problemas fisiológicos. "
+        "desciption": "Son gusanos de tamaño pequeño y forma cilíndrica que habitan en el suelo e infestan las raíces de las plantas, causándoles problemas fisiológicos. "
       },
       {
         "title": "Ninfa",
